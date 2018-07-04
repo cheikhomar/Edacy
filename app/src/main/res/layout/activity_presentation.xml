@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PresentationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/edacy"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="POURQUOI EDACY"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="Chaque année, environ 1,2 million de diplômés africains entrent sur le marché du travail sans la perspective d'un emploi viable. Pourtant, des millions d'emplois en technologie et en ingénierie restent vacants en Afrique et dans le monde. Chez EDACY, nous voulons former la prochaine génération de talents techniques pour élever l'Afrique."
+                android:textColor="@color/noir"
+
+                />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/presentation"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/vision"
+                    android:tint="@color/noir"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPrimary"
+                    android:text="Notre Mission"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/noir"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="30dp"
+                    android:layout_marginTop="200dp"
+                    android:background="@color/colorPrimary"
+                    android:text="Nous nous engageons à identifier et à élever la prochaine génération de leaders techniques africains, et investissons dans des programmes d'excellence éducatifs pour accélérer la transition de l'Afrique vers l'économie numérique."
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/noir"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
